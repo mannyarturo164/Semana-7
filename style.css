@@ -1,0 +1,43 @@
+body{
+	margin: 0px;
+	background: #d04811;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 50px;
+}
+
+footer{
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 700px;
+}
+
+.animation{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px; 
+
+	animation-name: logo;
+	animation-duration: .8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+@keyframes logo{
+	 from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
